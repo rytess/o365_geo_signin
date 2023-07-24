@@ -1,3 +1,8 @@
+<#Get-AzureADAuditDirectoryLogs -Filter "result eq 'success'"
+Get-AzureADAuditDirectoryLogs -Filter "result eq 'failure'" -All $true#>
+
+
+
 Import-Module AzureADPreview
 
 Connect-AzureAD

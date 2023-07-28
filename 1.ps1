@@ -17,3 +17,7 @@ $userstats = $userstats + $founduserstats
 
 
 $userstats | Export-Csv -Path "C:\Users\jramphul\Desktop\signins.csv" -notype
+
+
+
+$

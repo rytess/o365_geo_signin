@@ -29,7 +29,7 @@ $results | export-csv -Path d:\result.csv -NoTypeInformation
 
 
 
-
+update
 
 
 $role = Get-AzureADDirectoryRole | Where-Object {$_.displayName -eq 'Global Administrator'}
